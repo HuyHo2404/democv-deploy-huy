@@ -26,31 +26,31 @@ require_once('../dbhelp.php');
                 </div>
                 <div class="module">
                     <div class="name">
-                        <input value="<?php echo $edu['fullname'] ?? '' ?>" id="fullname" type="text" class="left-content-col-left" placeholder="Fullname" style="width: 500px; height: 25px; border: none; font-size: 30px; font-weight: 700; color: #32cd32; outline: none">
-                        <input value="<?php echo $edu['nganhnghe'] ?? '' ?>" id="nganhnghe" type="text" class="left-content-col-left" placeholder="Job position" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #32cd32; outline: none">
+                        <h1>HO QUANG HUY</h1>
+                        <p>Software Engineer</p>
                     </div>
                     <div class="module-title">
                         <div class="column-item module-title-left">
                             <div class="li">
-                                <span class="fa-solid fa-calendar"></span><input value="<?php echo $edu['ngaysinh'] ?? '' ?>" id="ngaysinh" type="text" class="left-content-col-left" placeholder="Birthday" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-solid fa-calendar"></span><p>24/04/2001</p>
                             </div>
                             <div class="li">
-                                <span class="fa-solid fa-phone"></span></span><input value="<?php echo $edu['sodt'] ?? '' ?>" id="sodt" type="text" class="left-content-col-left" placeholder="Phone number" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-solid fa-phone"></span><p>0905648420</p>
                             </div>
                             <div class="li">
-                                <span class="fa-solid fa-envelope"></span><input value="<?php echo $edu['email'] ?? '' ?>" id="email" type="text" class="left-content-col-left" placeholder="Email" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-solid fa-envelope"></span><p>hoquanghuy2404@gmail.com</p>
                             </div>
                         </div>
 
                         <div class="column-item module-title-right">
                             <div class="li">
-                                <span class="fa-brands fa-github"></span><input value="<?php echo $edu['github'] ?? '' ?>" id="github" type="text" class="left-content-col-left" placeholder="https://github.com/HuyHo2404" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-brands fa-github"></span><p>https://github.com/HuyHo2404</p>
                             </div>
                             <div class="li">
-                                <span class="fa-solid fa-location-arrow"></span><input value="<?php echo $edu['diachi'] ?? '' ?>" id="diachi" type="text" class="left-content-col-left" placeholder="Address" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-solid fa-location-arrow"></span><p>12B Đoàn Nguyễn Thục, TP Đà Nẵng</p>
                             </div>
                             <div class="li">
-                                <span class="fa-solid fa-user"></span><input value="<?php echo $edu['gioitinh'] ?? '' ?>" id="gioitinh" type="text" class="left-content-col-left" placeholder="Gender" style="width: 300px; height: 25px; border: none; font-size: 20px; font-weight: 500; color: #999; margin-left: 10px; outline: none">
+                                <span class="fa-solid fa-user"></span><p>Nam</p>
                             </div>
                         </div>
                     </div>
