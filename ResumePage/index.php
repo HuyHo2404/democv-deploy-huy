@@ -57,7 +57,7 @@ require_once('../dbhelp.php');
                 </div>
             </div>
             <div class="module-content">
-                <input value="<?php echo $edu['gioithieu'] ?? '' ?>" id="gioithieu" type="text" class="left-content-col-left" placeholder="Introduce" style="width: 945px; height: 130px; border: none; font-size: 20px; font-weight: 500; color: #999; outline: none">
+                <input value="<?php echo $edu['gioithieu'] ?? '' ?>" id="gioithieu" type="text" class="left-content-col-left" placeholder="Introduce" style="height: 130px; border: none; font-size: 20px; font-weight: 500; color: #999; outline: none">
             </div>
         </div>
 
